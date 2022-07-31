@@ -73,8 +73,8 @@
     "script": "https://raw.githubusercontent.com/zhiyu0215/Script/main/QX_Task/fqxs/fqxs.js"
   },
   { 
-      "id": "TY",
-            "name": "桃园",
+      "id": "TYRJ",
+            "name": "桃园人家",
             "keys": ["tyrjapp","tyrjapp2","tyrjapp3","tyrjapp4"],
             "author": "@ai",
             "settings": [{
@@ -105,7 +105,7 @@
     },
     { 
       "id": "TY",
-            "name": "桃园人",
+            "name": "桃园",
             "keys": ["tyapp","tyapp2","tyapp3","tyapp4","tyapp5"],
             "author": "@ai",
             "settings": [{
