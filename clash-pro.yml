@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: hka, server: hka.252798.xyz, port: 443, type: trojan, password: 9448new, sni: hka.252798.xyz, skip-cert-verify: true, udp: true}
+  - {name: hka, server: hka.252798.xyz, port: 443, type: trojan, password: 9448new, sni: hka.252798.xyz, skip-cert-verify: true, udp: true, network: ws,ws-opts: ,path: /t2x}
   - {name: kr, server: kr.252798.xyz, port: 443, type: trojan, password: 9448new, sni: kr.252798.xyz, skip-cert-verify: true, udp: true}
   - {name: hkb, server: hkb.252798.xyz, port: 443, type: trojan, password: 9448new, sni: hkb.252798.xyz, skip-cert-verify: true, udp: true}
   - {name: sj818, server: sj818.252798.xyz, port: 443, type: trojan, password: 9448new, sni: sj818.252798.xyz, skip-cert-verify: true, udp: true}
