@@ -1,4 +1,4 @@
-let obj = JSON.parse($response.body);
+let obj = JSON.parse($request.body);
 
 obj.subscription = [{
     "openid": "oP_Ic0UbYmljV40YbLLUivM7sYRI",
